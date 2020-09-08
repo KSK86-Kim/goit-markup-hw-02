@@ -1,0 +1,136 @@
+/* основной 
+color: #212121; 
+
+второстипений 
+color: #757575;
+
+дополнительний
+color: #FFFFFF;
+
+акцинт 
+  color: #2196f3;
+
+*/
+
+/* Global */
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  color: #212121;
+  font-family: Roboto;
+}
+
+/* .list {
+  list-style: none;
+} */
+
+ul {
+  list-style: none;
+}
+
+/* p {
+  color: #757575;
+} */
+
+/* :root */
+/* header */
+
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  color: #212121;
+}
+
+.logo-span {
+  color: #2196f3;
+}
+
+.site-nav {
+}
+
+.site-nav .link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.header-contacts .link {
+  color: #212121;
+  text-decoration: none;
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: #2196f3;
+}
+/* main */
+
+.hero {
+  background: #2f303a;
+  /* времени правка - невидно текста  */
+}
+
+.hero-title {
+  color: #ffffff;
+  /* font-size: 44px; */
+}
+
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  /* font-size: 16px; */
+  font-family: Roboto;
+  /* width: 200px;
+  height: 50px; */
+}
+
+.basis {
+}
+
+.basis-text {
+  color: #757575;
+}
+
+.work {
+}
+
+/* .work-title {
+  font-weight: 700;
+  font-size: 36px;
+} */
+
+/* footer */
+
+footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts .map {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* .footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: #2196f3;
+} */
